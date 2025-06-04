@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .discografia-container {
+    grid-template-columns: 1fr;
+  }
+  .texto-imagem, .texto-imagem.inverso {
+    flex-direction: column;
+  }
+  
+  .imagem-direita, .imagem-esquerda {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .fontes-lucro {
+    flex-direction: column;
+  }
+}
